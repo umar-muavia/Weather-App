@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Enter city..." />
+        <i id="submit" class="fas fa-search search-icon"></i>
+      </div>
+      <div class="weather-details">
+        <img
+          class="weather-icon"
+          src="./images/download.png"
+          alt="Weather Icon"
+        />
+        <div class="weather-info">
+          <p class="city">
+            <strong>City: </strong><span class="city-name"></span>
+          </p>
+          <p class="temperature">
+            <strong>Temperature: </strong>
+            <span class="temperature-span"></span>
+          </p>
+          <p><strong>Condition: </strong> <span class="condition"></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
